@@ -1,0 +1,66 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Dart tooling & packages
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Flutter/Dart build artifacts
+build/
+/web/favicon.png
+/web/icons/
+/web/manifest.json
+**/*.jar
+**/flutter_export_environment.sh
+**/GeneratedPluginRegistrant.*
+
+# Android files
+.gradle/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# iOS files
+/ios/Flutter/.last_build_id
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/.symlinks/
+/ios/Flutter/ephemeral/
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/App.framework
+/ios/Flutter/FlutterPluginRegistrant/
+/ios/Pods/
+
+# macOS files
+/macos/Flutter/ephemeral/
+
+# Linux files
+/linux/flutter/
+/linux/.plugin_symlinks
+
+# Windows files
+/windows/flutter/
+/windows/.plugin_symlinks
+
+# Web files
+/web/versions.json
+
+# Custom files
+/lib/env.dart
+
+# By default we don't ignore the pubspec.lock file to ensure that everyone
+# gets the same versions of everything. If you're using a private repo for
+# packages, it might be necessary to ignore it since the pubspec.lock could
+# contain your private repo URL.
+#pubspec.lock
